@@ -1,4 +1,4 @@
-import NewsArticleItem from "./components/NewsArticleItem"; // Import the new component
+import NewsArticleItem from "./components/NewsArticleItem";
 
 interface NewsPost {
   id: string;

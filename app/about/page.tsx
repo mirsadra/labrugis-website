@@ -1,9 +1,9 @@
-import React from "react";
+import React, { JSX } from "react";
 
 interface Article {
   id: string;
   title: string;
-  content: JSX.Element[]; // Changed to JSX Elements for rich formatting
+  content: JSX.Element[];
 }
 
 export default function AboutPage() {
@@ -107,6 +107,7 @@ export default function AboutPage() {
   };
 
   // Original philosophy content maintained for reference or potential second section
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const philosophyArticle: Article = {
     id: "labrugis-philosophy",
     title: "Our Philosophy: Science, Compassion, Integrity",
