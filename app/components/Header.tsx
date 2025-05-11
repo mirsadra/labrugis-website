@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
@@ -7,9 +8,16 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <Link
             href="/"
-            className="text-2xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
+            className="flex items-center text-2xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
           >
-            Labrugis
+            <Image
+              src="/vercel.svg" // Assumes vercel.svg is in your /public folder
+              alt="Labrugis Logo"
+              width={28} // Adjust width as needed
+              height={28} // Adjust height as needed
+              className="mr-2" // Add some margin to the right of the logo
+            />
+            <span>Labrugis</span>
           </Link>
           <Link
             href="/about"
