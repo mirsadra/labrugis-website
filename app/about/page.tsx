@@ -1,3 +1,4 @@
+// /app/about/page.tsx
 import React, { JSX } from "react";
 
 interface Article {
