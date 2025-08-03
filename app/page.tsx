@@ -12,6 +12,13 @@ interface NewsPost {
 
 const newsItems: NewsPost[] = [
   {
+    id: "8",
+    title: "Project Draft Completed",
+    date: "3 August, 2025",
+    summary:
+      "After months of dedicated work, we have finalised the comprehensive draft of our business plan, financial models and supporting documentation. This package has now been submitted to our external business plan assessors for a final, independent review. Their feedback will be crucial in ensuring our proposal is robust, credible and fully aligned with the stringent requirements for UK endorsement. We anticipate their insights will help us refine our strategy and move one step closer to official submission.",
+  },
+  {
     id: "7",
     title: "An In-Depth Analysis of Supergoop! Glowscreen SPF 30",
     date: "22 May, 2025",
